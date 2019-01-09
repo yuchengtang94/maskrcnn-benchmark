@@ -9,11 +9,11 @@ class DatasetCatalog(object):
     DATASETS = {
         "coco_2014_train": {
             "img_dir": "/workspace/MathOCR/data_processing/coco_style_all_data/images",
-            "ann_file": "/workspace/MathOCR/data_processing/coco_style_all_data/images/annotations/train.json"
+            "ann_file": "/workspace/MathOCR/data_processing/coco_style_all_data/annotations/train.json"
         },
         "coco_2014_val": {
             "img_dir": "/workspace/MathOCR/data_processing/coco_style_all_data/images",
-            "ann_file": "/workspace/MathOCR/data_processing/coco_style_all_data/images/annotations/train.json"
+            "ann_file": "/workspace/MathOCR/data_processing/coco_style_all_data/annotations/train.json"
         },
         "coco_2014_minival": {
             "img_dir": "coco/val2014",
