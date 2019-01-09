@@ -58,10 +58,12 @@ def do_train(
         iteration = iteration + 1
         arguments["iteration"] = iteration
         
+        print(targets)
         # add ignore
-        if len(targets[0]) < 1:
-            print('num_boxes: ', len(targets[0]))
-            continue
+        for target in targets:
+            if len(target) < 1:
+                print('num_boxes: ', len(target))
+                continue
 
         scheduler.step()
 
