@@ -57,6 +57,11 @@ def do_train(
         data_time = time.time() - end
         iteration = iteration + 1
         arguments["iteration"] = iteration
+        
+        # add ignore
+        if len(targets[0]) < 1:
+            print('num_boxes: ', len(targets[0]))
+            continue
 
         scheduler.step()
 
