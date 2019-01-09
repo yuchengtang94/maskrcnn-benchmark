@@ -58,6 +58,7 @@ def do_train(
         iteration = iteration + 1
         arguments["iteration"] = iteration
         
+        print(images)
         print(targets)
         # add ignore
         for target in targets:
