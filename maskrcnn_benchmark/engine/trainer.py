@@ -57,9 +57,7 @@ def do_train(
         data_time = time.time() - end
         iteration = iteration + 1
         arguments["iteration"] = iteration
-        
-        print(images)
-        print(targets)
+
         # add ignore
         should_continue = False
         for target in targets:
