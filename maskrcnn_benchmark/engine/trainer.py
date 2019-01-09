@@ -61,11 +61,14 @@ def do_train(
         print(images)
         print(targets)
         # add ignore
+        should_continue = False
         for target in targets:
             if len(target) < 1:
                 print('num_boxes: ', len(target))
-                continue
-
+                should_continue = True
+                break;
+        if should_continue:
+            continue;
         scheduler.step()
 
         images = images.to(device)
