@@ -62,7 +62,6 @@ def do_train(
         should_continue = False
         for target in targets:
             if len(target) < 1:
-                print('num_boxes: ', len(target))
                 should_continue = True
                 break;
         if should_continue:
