@@ -43,4 +43,4 @@ SOLVER:
   CHECKPOINT_PERIOD: 30000
 TEST:
   IMS_PER_BATCH: 2
-OUTPUT_DIR: '/workspace/result/0111fasterXEpoch6'
+OUTPUT_DIR: '/workspace/result/0120fasterXpooler5'
