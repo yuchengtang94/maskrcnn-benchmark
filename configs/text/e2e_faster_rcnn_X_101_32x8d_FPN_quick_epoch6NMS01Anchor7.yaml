@@ -46,4 +46,4 @@ SOLVER:
   CHECKPOINT_PERIOD: 50000
 TEST:
   IMS_PER_BATCH: 2
-OUTPUT_DIR: '/workspace/result/0112fasterXLR001'
+OUTPUT_DIR: '/workspace/result/fasterXAnchor7'
